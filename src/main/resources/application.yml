@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      initialSize: 2
+      minIdle: 2
+      maxActive: 30
+      ######Druid监控配置######
+      WebStatFilter:
+        exclusions: '*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*'
+      StatViewServlet:
+        loginUsername: druid
+        loginPassword: druid
+jpa:
+  hibernate:
+    ddl-auto: update
+  show-sql: true
+
+
+
+logging:
+  level:
+    root: debug
+  config: classpath:log4j2.xml
