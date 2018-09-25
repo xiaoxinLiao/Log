@@ -2,7 +2,7 @@ package com.liaoxin.log.aop;
 
 import com.alibaba.fastjson.JSON;
 import com.liaoxin.log.annotations.OperationLog;
-import com.liaoxin.log.annotations.service.OperationLogService;
+import com.liaoxin.log.service.OperationLogService;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;

@@ -1,4 +1,4 @@
-package com.liaoxin.log.annotations.service;
+package com.liaoxin.log.service;
 
 
 import com.liaoxin.log.domain.OperationLog;

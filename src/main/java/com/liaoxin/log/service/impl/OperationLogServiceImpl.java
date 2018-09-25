@@ -1,7 +1,8 @@
-package com.liaoxin.log.annotations.service;
+package com.liaoxin.log.service.impl;
 
 import com.liaoxin.log.domain.OperationLog;
 import com.liaoxin.log.repository.OperationLogRepository;
+import com.liaoxin.log.service.OperationLogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
